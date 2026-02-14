@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://javierespinmegias.github.io/javierespinmegias.github.io",
+  "homepage": "http://javierespinmegias.github.io/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://javierespinmegias.github.io/javierespinmegias.github.io'",
+    "build-gh": "parcel build --public-url 'https://javierespinmegias.github.io/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
